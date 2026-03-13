@@ -213,14 +213,14 @@ width:100%;
 
 <h3 class="text-center mb-4">Login</h3>
 
-<form action="dashboard" method = "POST">
+<form  action="${pageContext.request.contextPath}/login" method ="POST">
 
 <div class="mb-3">
-<input type="email" class="form-control" placeholder="Email Address">
+<input type="text" class="form-control" name="username"  placeholder="Email Address">
 </div>
 
 <div class="mb-3">
-<input type="password" class="form-control" placeholder="Password">
+<input type="password" class="form-control"  name="password"  placeholder="Password">
 </div>
 
 <button class="btn btn-primary w-100 login-btn">Login</button>
