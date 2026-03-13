@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+body{
+	background: url("../IMG/bg_stock.mp4");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
