@@ -225,6 +225,7 @@ width:100%;
 
 <button class="btn btn-primary w-100 login-btn">Login</button>
 
+
 <div class="text-center auth-links">
 
 <p class="mt-3">

@@ -46,5 +46,9 @@ public class HomeController {
     public String dashboard() {
         return "dashboard";
     }
+    @GetMapping("/adminprofile")
+    public String adminProfile() {
+    	return "adminprofile";
+    }
 
 }

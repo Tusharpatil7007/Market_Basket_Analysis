@@ -144,13 +144,12 @@ margin-left:0;
 
 <h4>Admin Panel</h4>
 
-<a href="dashboard.jsp">Dashboard</a>
+<a href="dashboard">Dashboard</a>
 <a href="#">Products</a>
 <a href="#">Transactions</a>
 <a href="#">Analysis</a>
 <a href="#">Users</a>
 <a href="#">Upload Dataset</a>
-<a href="#">Settings</a>
 <a href="home">Logout</a>
 
 </div>
@@ -175,7 +174,7 @@ Admin
 
 
 <ul class="dropdown-menu dropdown-menu-end">
-<li><a class="dropdown-item" href="#">Profile</a></li>
+<li><a class="dropdown-item" href="adminprofile">Profile</a></li>
 <li><a class="dropdown-item" href="home">Logout</a></li>
 </ul>
 
